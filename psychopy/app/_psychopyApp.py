@@ -429,7 +429,7 @@ class PsychoPyApp(wx.App):
         license = licFile.read()
         licFile.close()
 
-        msg = """For stimulus generation and experimental control in python.
+        msg = """For stimulus generation and experimental control in python, using haxx.
 
 PsychoPy depends on your feedback. If something doesn't work then
 let me/us know at psychopy-users@googlegroups.com"""
