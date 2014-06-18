@@ -98,6 +98,9 @@ def getAllComponents(folderList=[], fetchIcons=True):
         userComps=getComponents(folder)
         for thisKey in userComps.keys():
             components[thisKey]=userComps[thisKey]
+            
+    for c in components:
+        print(c)
     return components
 
 
